@@ -1,0 +1,85 @@
+@import 'tailwindcss';
+@theme {
+  --color-primary-50: #f0eafa;
+  --color-primary-100: #d8bcee;
+  --color-primary-200: #b99ce6;
+  --color-primary-300: #986fdb;
+  --color-primary-400: #8553d4;
+  --color-primary-500: #6627c7;
+  --color-primary-600: #5d24b7;
+  --color-primary-700: #481c8f;
+  --color-primary-800: #38166f;
+  --color-primary-900: #2b1154;
+
+  --color-secondary-50: #e6e7ec;
+  --color-secondary-100: #c4c4cf;
+  --color-secondary-200: #a8a8b2;
+  --color-secondary-300: #656684;
+  --color-secondary-400: #4e4f72;
+  --color-secondary-500: #32335c;
+  --color-secondary-600: #1d113e;
+  --color-secondary-700: #0c0d36;
+  --color-secondary-800: #060730;
+  --color-secondary-900: #050627;
+
+  --color-gray-50: #e9e9ea;
+  --color-gray-100: #d3d3d5;
+  --color-gray-200: #a7a7ab;
+  --color-gray-300: #7b7b80;
+  --color-gray-400: #5a5a5d;
+  --color-gray-500: #39393a;
+
+  --color-black-50: #3b373a;
+  --color-black-100: #2f2c2e;
+  --color-black-200: #232123;
+  --color-black-300: #181617;
+  --color-black-400: #120f11;
+  --color-black-500: #0c0c0c;
+
+  --color-success-50: #ecfdf5;
+  --color-success-100: #d1fae5;
+  --color-success-200: #a7f3d0;
+  --color-success-300: #6ee7b7;
+  --color-success-400: #34d399;
+  --color-success-500: #064a38;
+
+  --color-warning-50: #fffbeb;
+  --color-warning-100: #fef3c7;
+  --color-warning-200: #fde68a;
+  --color-warning-300: #fcd34d;
+  --color-warning-400: #fbbf24;
+  --color-warning-500: #78350f;
+
+  --color-error-50: #fef2f2;
+  --color-error-100: #fee2e2;
+  --color-error-200: #fecaca;
+  --color-error-300: #fca5a5;
+  --color-error-400: #f87171;
+  --color-error-500: #761b1b;
+
+  --color-info-50: #eff6ff;
+  --color-info-100: #dbeafe;
+  --color-info-200: #bfdbfe;
+  --color-info-300: #93c5fd;
+  --color-info-400: #60a5fa;
+  --color-info-500: #142b74;
+
+  --radius-small: 4px;
+  --radius-medium: 8px;
+  --radius-large: 12px;
+  --radius-xlarge: 24px;
+  --radius-huge: 100px;
+
+  --shadow-card-default:
+    0 2px 8px 0 rgb(43 17 84 / 0.08), 0 4px 8px 0 rgb(43 17 84 / 0.08);
+  --shadow-card-hover:
+    0 4px 12px 0 rgb(43 17 84 / 0.12), 0 8px 16px 0 rgb(43 17 84 / 0.12);
+  --shadow-card-pressed:
+    0 1px 4px 0 rgb(43 17 84 / 0.06), 0 2px 4px 0 rgb(43 17 84 / 0.06);
+  --shadow-button-default: 0 0 4px 0.5px rgb(43 17 84 / 0.1);
+  --shadow-button-hover: 0 0 6px 1px rgb(43 17 84 / 0.15);
+  --shadow-button-pressed: 0 0 2px 0.5px rgb(43 17 84 / 0.08);
+
+  --font-family-sans: 'Inter', system-ui, sans-serif;
+  --font-family-serif: 'Poppins', Georgia, serif;
+}
